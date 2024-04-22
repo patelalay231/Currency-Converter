@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #1B383A;
+    --button-color: #E1895D;
+    --yellow : #E7CC65;
+    --backgroud-color: #f5f3ee;
+}
+
+
+.bodyContainer{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--backgroud-color);
+    color: var(--primary-color);
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    font-size: 5vmin;
+    color: var(--backgroud-color);
+    background-color: var(--primary-color);
+}
+
+.mainContainer{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    /* border: 2px solid var(--primary-color); */
+    border-radius: 0.625rem;
+    flex-direction: column;
+    /* height: 60%; */
+    padding: 6vmin;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.dropdownContainer{
+    margin-top: 4vmin;
+    margin-bottom: 4vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5vmin;
+    font-size: 1rem;
+}
+
+.img{
+    height: 2rem;
+}
+
+.selectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    border: 1px solid var(--primary-color);
+    padding: 0.2rem;
+    border-radius: 4px;
+}
+
+.amountInput{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    margin-top: 0.5rem;
+    color: var(--primary-color);
+    
+}
+
+.choiceContainer{
+    padding: 0.3rem;
+    border: none;
+    background-color: var(--backgroud-color);
+    outline: none;
+}
+
+.messageContainer{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.exchangeContainer{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.exchangeBtn{
+    padding: 0.6rem;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--button-color);
+    color: var(--backgroud-color);
+}
